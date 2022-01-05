@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-service-project/product-service-app/product-service-app.iml" filepath="$PROJECT_DIR$/product-service-project/product-service-app/product-service-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-service-project/product-service-project.iml" filepath="$PROJECT_DIR$/product-service-project/product-service-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/template/template.iml" filepath="$PROJECT_DIR$/template/template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/twomall.iml" filepath="$PROJECT_DIR$/twomall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,4 @@
+# Project exclude paths
+/common/target/
+/template/target/
+/util/target/
