@@ -16,6 +16,7 @@ import lombok.experimental.Accessors;
 #end
 
 /**
+ * $!{table.comment}
  * @author ${author}
  * @since ${date}
  */

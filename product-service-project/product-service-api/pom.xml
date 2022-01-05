@@ -8,15 +8,9 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <version>1.0-SNAPSHOT</version>
 
-    <artifactId>product-service-app</artifactId>
+    <artifactId>product-service-api</artifactId>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.codeman</groupId>
-            <artifactId>product-service-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
 
 </project>
