@@ -38,9 +38,9 @@ public class MybatisPlusCodeGenerator {
         config.setServiceImpl(null);
         config.setController(null);
 
-        // 从Libraries复杂源文件，修改实体类或Mapper的代码
+        // 从Libraries复制源文件，修改实体类或Mapper的代码
         config.setEntity("templates/entity2.java");
-        config.setMapper("templates/mapper.java");
+        config.setMapper("templates/mapper2.java");
         mpg.setTemplate(config);
 
 
@@ -82,7 +82,7 @@ public class MybatisPlusCodeGenerator {
         // 数据源配置
         DataSourceConfig dataSourceConfiguration = new DataSourceConfig();
 
-        dataSourceConfiguration.setUrl("jdbc:mysql://localhost:3306/seckill#63;useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=UTC");
+        dataSourceConfiguration.setUrl("jdbc:mysql://localhost:3306/twomall#63;useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=UTC");
 
         // dataSourceConfiguration.setSchemaName("public");
         dataSourceConfiguration.setDriverName("com.mysql.cj.jdbc.Driver");

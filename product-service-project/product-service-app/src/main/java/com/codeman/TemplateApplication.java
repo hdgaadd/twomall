@@ -7,7 +7,7 @@ import springfox.documentation.oas.annotations.EnableOpenApi;
 
 @SpringBootApplication
 @EnableOpenApi
-@MapperScan({"com.codeman.mapper", "com.codeman.dao"})
+@MapperScan({"com.codeman.mysql.mapper.*"})
 public class TemplateApplication {
 
 	public static void main(String[] args) {
